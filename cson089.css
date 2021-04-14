@@ -1,0 +1,108 @@
+#staff, #courses, #infographic {
+	display:none;
+}
+body {
+    background-color: rgb(242, 242, 242);
+    margin:0;
+}
+/* navigational bar section*/
+nav {
+	background-color: rgb(30, 39, 117);
+	height: 10vh;
+	color:white;
+	font-size: 3vh;
+}
+#section {
+	padding: 3vh;
+	float:right;
+}
+nav a {
+	padding: 2vw;
+}
+nav a:hover {
+	text-decoration: underline;
+}
+nav img {
+	z-index:2;
+	height: 12vh;
+	margin: 2vh 0 0 2vh;
+	background-color:white;
+}
+
+/* home section */
+#home {
+	text-align:center;
+	width:60%;
+	margin: 15vh auto;
+}
+#home p {
+	font-size:20px;
+	margin: 0;
+}
+
+/* staff information section */
+#staff {
+	text-align:center;
+	width:90%;
+	margin: 11vh auto;
+}
+#staffpagetitle {
+	width:60%;
+	margin: 0 auto;
+	text-align:center;
+}
+table {
+	width:90%;
+	margin: 0 auto;
+}
+table, td, th {
+	border: 1px solid grey;
+}
+td,th {
+	padding:1vw;
+}
+table a {
+	text-decoration: none;
+	color:rgb(30, 39, 117);
+}
+table a:hover {
+	text-decoration: underline;
+}
+
+/*course information section*/
+#courses {
+	width:100%;
+}
+#coursetitle {
+	width:60%;
+	margin: 0 auto;
+	text-align:center;
+}
+#courseInfo {
+	z-index: 1;
+	background-color:white;
+	top:0;
+	width:100%;
+	position:fixed;
+	display:none;
+	margin:20vh auto;
+	height: 600px;
+	overflow:auto;
+}
+button {
+	position:fixed;
+	margin: 10px;
+}
+/* infographic section*/
+#infotitle {
+	width:60%;
+	margin: 0 auto;
+	text-align:center;
+}
+#symbol {
+	display:none;
+}
+#infograph {
+	width:60%;
+	margin: 0 auto;
+} 
