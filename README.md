@@ -8,7 +8,7 @@ This repository contains files for the University of Auckland's Department of Ma
 
 <hr><br>
 
-<strong>To preview website:</strong> All files should be in the same directory.
+<strong>When viewing website:</strong> All files should be in the same directory.
 
 <br><hr>
 
